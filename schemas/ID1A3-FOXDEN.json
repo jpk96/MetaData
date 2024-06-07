@@ -289,86 +289,61 @@
     "utils": "mm",
     "placeholder": ""
   },
+
+  
   {
-    "key": "upstream_detector_slit_horizontal_size",
+    "key": "upstream_detector_slit_size",
     "type": "float64",
     "optional": true,
     "multiple": false,
     "section": "Alignment",
-    "description": "if white beam mode: horizontal upstream detector slit size",
+    "description": "if white beam mode: upstream detector slit size (rsugap)",
     "utils": "mm",
     "placeholder": ""
   },
   {
-    "key": "upstream_detector_slit_vertical_size",
+    "key": "upstream_detector_slit_takeoff_angle",
     "type": "float64",
     "optional": true,
     "multiple": false,
     "section": "Alignment",
-    "description": "if white beam mode: vertical upstream detector slit size",
+    "description": "if white beam mode: upstream detector slit takeoff angle (rsutth)",
+    "utils": "deg",
+    "placeholder": ""
+  },
+
+  {
+    "key": "downstream_detector_slit_size",
+    "type": "float64",
+    "optional": true,
+    "multiple": false,
+    "section": "Alignment",
+    "description": "if white beam mode: downstream detector slit size (rsdgap)",
     "utils": "mm",
     "placeholder": ""
   },
   {
-    "key": "upstream_detector_slit_horizontal_position",
+    "key": "downstream_detector_slit_takeoff_angle",
     "type": "float64",
     "optional": true,
     "multiple": false,
     "section": "Alignment",
-    "description": "if white beam mode: horizontal upstream detector slit position",
-    "utils": "mm",
+    "description": "if white beam mode: downstream detector slit takeoff angle (rsdtth)",
+    "utils": "deg",
     "placeholder": ""
   },
   {
-    "key": "upstream_detector_slit_vertical_position",
+    "key": "detector_takeoff_angle",
     "type": "float64",
     "optional": true,
     "multiple": false,
     "section": "Alignment",
-    "description": "if white beam mode: verticall upstream detector slit position",
-    "utils": "mm",
+    "description": "if white beam mode: detector takeoff angle (eddtth)",
+    "utils": "deg",
     "placeholder": ""
   },
-  {
-    "key": "downstream_detector_slit_horizontal_size",
-    "type": "float64",
-    "optional": true,
-    "multiple": false,
-    "section": "Alignment",
-    "description": "if white beam mode: horizontal downstream detector slit size",
-    "utils": "mm",
-    "placeholder": ""
-  },
-  {
-    "key": "downstream_detector_slit_vertical_size",
-    "type": "float64",
-    "optional": true,
-    "multiple": false,
-    "section": "Alignment",
-    "description": "if white beam mode: vertical downstream detector slit size",
-    "utils": "mm",
-    "placeholder": ""
-  },
-  {
-    "key": "downstream_detector_slit_horizontal_position",
-    "type": "float64",
-    "optional": true,
-    "multiple": false,
-    "section": "Alignment",
-    "description": "if white beam mode: horizontal downstream detector slit position",
-    "utils": "mm",
-    "placeholder": ""
-  },
-  {
-    "key": "downstream_detector_slit_vertical_position",
-    "type": "float64",
-    "optional": true,
-    "multiple": false,
-    "section": "Alignment",
-    "description": "if white beam mode: verticall downstream detector slit position",
-    "utils": "mm",
-    "placeholder": ""
-  },
+
+ 
   {
     "key": "cesr_conditions",
     "type": "list_str",
